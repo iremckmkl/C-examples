@@ -13,7 +13,7 @@ int main() {
    printf("total=%d",total);
    
 }
-#the program that computes of square
+#the program that computes area and environment of square
 
 #include <stdio.h>
 int main() {
