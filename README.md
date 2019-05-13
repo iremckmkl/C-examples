@@ -45,4 +45,34 @@ int main() {
     printf("the environment of circle:%d",environment);
     
 }
+#include <stdio.h>
+
+int main() {
+    int num;
+    
+    printf("please enter a num\n");
+    scanf("%d",&num);
+    printf("%d\n",num);
+    if (num%2==0){
+        printf("the number is even");
+    }
+    else{
+        printf("the number is odd");
+    }
+  
+}
+#include <stdio.h>
+
+int main() {
+    int distance;
+    int hour;
+	printf("please enter the distance\n");
+	scanf("%d",&distance);
+	printf("please enter the hour\n");
+	scanf("%d",&hour);
+	int speed;
+	speed=distance/hour;
+	printf("speed=%d",speed);
+	
+}
 
