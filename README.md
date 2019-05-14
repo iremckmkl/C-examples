@@ -76,3 +76,45 @@ int main() {
 	
 }
 
+#include <stdio.h>
+
+int main() {
+    int num1,num2;
+    printf("please enter the first number\n");
+    scanf("%d",&num1);
+    printf("please enter the second number\n");
+    scanf("%d",&num2);
+    printf("first num:%d\nsecond num:%d\n",num1,num2);
+    if(num1>num2){
+        printf("first number is greater than second number");
+        
+    }else if(num1==num2){
+        printf("numbers that you enter are equal each other");
+        
+    }else{
+        printf("second number is greater than first number");
+    }
+    
+	
+}
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+	int x1,x2;
+	int y1,y2;
+    float distance;
+	printf("please enter the coordination (x1,y1)\n");
+	scanf("%d,%d",&x1,&y1);
+	
+    printf("please enter the coordination (x2,y2)\n");
+	scanf("%d,%d",&x2,&y2);
+	
+	distance=sqrt(pow((x2-x1),2)+pow((y2-y1),2));
+	printf("%f",distance);
+	
+}
+
+
+
+
