@@ -115,6 +115,70 @@ int main() {
 	
 }
 
+#include <stdio.h>
+
+int main() {
+	int num=0;
+	int i=0;
+	printf("please enter the number ");
+	printf("\n");
+	scanf("%i",&num);
+	for(i=1;i<10;i++){
+	    printf("%i ",num*i);
+	    
+	}
+	
+
+	
+}
+
+#include <stdio.h>
+
+int main() {
+    int num;
+	int i=0;
+	int fact=1;
+	printf("please enter the number: ");
+	scanf("%i",&num);
+	printf("%i",num);
+	printf("\n");
+	for(i=1;i<=num;i++){
+	    if(num==0||num==1){
+	        fact=1;
+	    }else{
+	        fact=fact*i;
+	    }
+	}
+	printf("factorial of the number is: %i\n",fact);
+	
+}
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num;
+    int exp;
+	
+	printf("please enter the number: ");
+	scanf("%i",&num);
+	printf("%i",num);
+	printf("\n");
+	
+	printf("please enter the exp: ");
+	scanf("%i",&exp);
+	printf("%i",exp);
+	printf("\n");
+	
+	
+	int power;
+	power=int(pow(num,exp));
+	printf("%i",power);
+	
+	
+    
+
+}
+
 
 
 
